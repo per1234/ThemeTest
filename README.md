@@ -220,4 +220,4 @@ The following information was determined using Arduino IDE 1.6.11. Unless otherw
   - `<style token="ERROR_STRING_DOUBLE" fg=` - Text that starts with a double quote(but not text surrounded by double quotes).
   - `<style token="ERROR_CHAR" fg=` - Text that starts with a single quote(but not a single character surrounded by single quotes).
 
-![screenshot](https://github.com/per1234/ThemeTest/raw/master/screenshot.jpg)
+![screenshot](https://github.com/per1234/ThemeTest/raw/master/screenshot.png)

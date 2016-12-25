@@ -17,7 +17,12 @@ keywordPREPROCESSOR //editor.preprocessor.style
 //editor.comment1.style
 /*editor.comment2.style*/
 editor.fgcolor
-{}  //editor.brackethighlight.color and theme/syntax/default.xml matchedBracket animate value(move cursor to the brackets to view both)
+{}  //default.xml <style token="SEPARATOR" fg= (non-highlighted), default.xml <matchedBracket bg= (matched bracket highlight background color), editor.brackethighlight.color (matched bracket highlighting foreground color), default.xml <matchedBracket animate= (animation on matched bracket highlight)
+42  //default.xml <style token="LITERAL_NUMBER_DECIMAL_INT" fg=
+42.0  //default.xml <style token="LITERAL_NUMBER_FLOAT" fg=
+'default.xml <style token="ERROR_CHAR" fg='
+"foo  //<style token="ERROR_STRING_DOUBLE" fg= (set by a different property when the closing quotes are added)
+`<style token="ERROR_IDENTIFIER" fg=`
 
 // The following currently don't seem to be affected by any specific theme element other than editor.fgcolor:
 label:
