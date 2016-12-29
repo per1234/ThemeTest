@@ -207,7 +207,7 @@ The following information was determined using Arduino IDE 1.6.11. Unless otherw
   - `<style token="LITERAL_NUMBER_FLOAT" fg=` - Doesn't appear to have any effect.
   - `<style token="LITERAL_NUMBER_DECIMAL_INT" fg=` - Integers.
   - `<style token="LITERAL_NUMBER_FLOAT" fg=` - Decimal fractions.
-  - `<style token="LITERAL_NUMBER_HEXADECIMAL" fg=` - Doesn't appear to have any effect.
+  - `<style token="LITERAL_NUMBER_HEXADECIMAL" fg=` - Numbers in hexadecimal form(start with 0x followed by only 0-9, A-F, a-f).
   - `<style token="LITERAL_STRING_DOUBLE_QUOTE" fg=` - Doesn't appear to have any effect.
   - `<style token="LITERAL_CHAR" fg=` - Doesn't appear to have any effect.
   - `<style token="LITERAL_BACKQUOTE" fg=` - Doesn't appear to have any effect.
