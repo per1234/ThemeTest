@@ -110,8 +110,8 @@ The following information was determined using Arduino IDE 1.6.11. Unless otherw
   - `plotting.color` - Doesn't appear to have any effect.
   - `plotting.gridcolor` - Color of the Serial Plotter grid.
   - `plotting.boundscolor` - Color of the bounds lines on the left and bottom margins of the Serial Plotter.
-  - `plotting.graphcolor.size` - Doesn't appear to have any effect.
-  - `plotting.graphcolor.00-03` - Color of each line in Serial Plotter.
+  - `plotting.graphcolor.size` - The number of Serial plotter line colors defined.
+  - `plotting.graphcolor.nn` - Color of each line in Serial Plotter.
   - `linestatus.color` - Color of the text on the Line Status bar.
   - `linestatus.bgcolor` - Line Status bar background color.
   - `linestatus.font` - Font of the Line Status bar text.
