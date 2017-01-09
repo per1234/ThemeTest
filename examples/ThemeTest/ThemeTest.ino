@@ -10,6 +10,7 @@ keywordRESERVED_WORD_2  //editor.reserved_word_2.style
 keywordDATA_TYPE //editor.data_type.style
 keywordPREPROCESSOR //editor.preprocessor.style
 
+true  //editor.literal_boolean.style
 "editor.literal_string_double_quote.style"
 #error  //editor.preprocessor.style
 + //editor.operator.style

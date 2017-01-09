@@ -138,7 +138,7 @@ The following information was determined using Arduino IDE 1.6.11. Unless otherw
   - `editor.literal2.style` - Doesn't appear to have any effect.
   - `editor.variable.style` - Doesn't appear to have any effect.
   - `editor.reserved_word_2.style` - `LITERAL1` and `RESERVED_WORD_2` keywords in the keywords.txt file of any installed library or {Arduino IDE installation folder}/lib/keywords.txt.
-  - `editor.literal_boolean.style` - Doesn't appear to have any effect.
+  - `editor.literal_boolean.style` - true or false
   - `editor.literal_char.style` - Doesn't appear to have any effect.
   - `editor.literal_string_double_quote.style` - Text surrounded by double quotes.
   - `editor.preprocessor.style` - Preprocessor directives(or `PREPROCESSOR` keywords in the keywords.txt file of any installed library).
