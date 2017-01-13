@@ -222,7 +222,7 @@ The following information was determined using Arduino IDE 1.6.11. Unless otherw
 
 
 #### Contributing
-Additions, corrections, or clarifications are welcome. If you have anything to contribute please open a [pull request](https://github.com/per1234/ThemeTest/pulls) or [issue report](https://github.com/per1234/ThemeTest/issues).
+Pull requests or issue reports are welcome! Please see the [contribution rules](https://github.com/per1234/asdf/blob/master/CONTRIBUTING.md) for instructions.
 
 
 ![screenshot](https://github.com/per1234/ThemeTest/raw/master/screenshot.png)
