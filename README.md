@@ -24,63 +24,10 @@ The Arduino IDE must be restarted before changes to the theme files take effect.
 Note that a few other appearance-related settings are located in the Arduino's **File > Preferences** and also the file preference.txt, which may be found by clicking the link on the line under **File > Preferences > More preferences can be edited directly in the file**.
 
 
-#### Suggested Test Procedure
-Pay attention to the contrast between all possible foreground and background colors of text and graphics.
-- **File > Examples > ThemeTest > ThemeTest**
-  - Buttons
-    - Button bar color (`buttons.bgcolor`)
-    - Button graphics (first row of buttons.png)
-    - Button graphics with mouse pointer hovering over them (second row of buttons.png)
-    - Button graphics after they are clicked (third row of buttons.png)
-    - Font of text shown to the right of the buttons when mouse pointer is hovering over a button (`buttons.status.font`)
-    - Color of text shown to the right of the buttons when mouse pointer is hovering over a button (`buttons.status.color`)
-  - Header
-    - Header bar color (`header.bgcolor`)
-    - Tab text font (`header.text.font`)
-    - Selected tab text color (`header.text.selected.color`)
-    - Selected tab graphics (tab-sel-*.png)
-    - Unselected tab text color (`header.text.unselected.color`)
-    - Unselected tab graphics. (tab-unsel-*.png)
-    - Tab menu button graphics(there is no selected/hover state for this button) (tab-unsel-menu.png)
-  - Editor
-    - Unselected text - See sketch for theme configuration file property names.
-    - Selected text - See sketch for theme configuration file property names.
-    - Matched bracket highlighting (`editor.brackethighlight`)
-    - Matched bracket highlight animation (`<matchedBracket animate=`)
-    - Matched bracket highlight background color (`<matchedBracket bg=`)
-    - Matched bracket highlight foreground color (`editor.brackethighlight.color`)
-  - **Sketch > Compile/Verify** - This will show theme behavior after compile error.
-  - Status Bar(error state)
-    - Text color (`status.error.fgcolor`)
-    - Status bar color (`status.error.bgcolor`)
-  - Console(with error text)
-    - Font (`console.font`/`console.font.macosx`)
-    - Foreground color of unselected error text (`console.error.color`)
-    - Background color of unselected text (`console.color`)
-    - Foreground color of selected text
-    - Background color of selected text
-  - Line Status bar - Bar at the bottom of the screen that shows the line number, board, and port.
-    - Text color (`linestatus.color`)
-    - Background color (`linestatus.bgcolor`)
-    - Font (`linestatus.font`)
-    - Height (`linestatus.height`)
-- **File > Examples > ThemeTest > SerialPlotter**
-  - **File > Preferences > Show verbose output during > upload**(uncheck)
-  - **Sketch > Upload**
-    - Status Bar(non-error state)
-      - Text color (`status.notice.fgcolor`)
-      - Status bar color (`status.notice.fgcolor`)
-    - Console(with output text)
-      - Text color (`console.output.color`)
-  - **Tools > Serial Plotter**
-  - Select **9600 baud** from the menu in the lower left corner of the Serial Plotter.
-    - Background color (`plotting.bgcolor`)
-    - Color of each plotter line (`plotting.graphcolor.00-03`)
-    - Grid color (`plotting.gridcolor`)
-    - Bounds color (`plotting.boundscolor`)
-
-
-#### Graphics files(.png, @2x.png, .svg. Located at lib/theme):
+#### Theme documentation
+The following information was determined using Arduino IDE 1.6.11.
+##### Graphics Files
+These are .png, @2x.png, and .svg files located in lib/theme
 - buttons - Rows: Unselected, hover, selected. Columns: Compile, upload, new, open, save.
 - close - Doesn't appear to be used currently.
 - lock - Doesn't appear to be used currently.
@@ -95,9 +42,7 @@ Pay attention to the contrast between all possible foreground and background col
 - tab-sel-menu - Doesn't appear to be used currently.
 - tab-unsel-menu - Tab menu button.
 
-
-#### Theme settings documentation
-The following information was determined using Arduino IDE 1.6.11.
+##### Theme Settings
 - Settings found in lib/theme/theme.txt:
   - `status.notice.fgcolor` - Non-error text color on the status bar.  - `buttons.bgcolor` - Color of the button bar.
   - `status.notice.bgcolor` - Background color of the status bar when not in error mode.
@@ -231,6 +176,62 @@ The following information was determined using Arduino IDE 1.6.11.
   - `<style token="ERROR_NUMBER_FORMAT" fg=` - Doesn't appear to have any effect.
   - `<style token="ERROR_STRING_DOUBLE" fg=` - Text that starts with a double quote(but not text surrounded by double quotes).
   - `<style token="ERROR_CHAR" fg=` - Text that starts with a single quote(but not a single character surrounded by single quotes).
+
+
+ #### Suggested Test Procedure
+Pay attention to the contrast between all possible foreground and background colors of text and graphics.
+- **File > Examples > ThemeTest > ThemeTest**
+  - Buttons
+    - Button bar color (`buttons.bgcolor`)
+    - Button graphics (first row of buttons.png)
+    - Button graphics with mouse pointer hovering over them (second row of buttons.png)
+    - Button graphics after they are clicked (third row of buttons.png)
+    - Font of text shown to the right of the buttons when mouse pointer is hovering over a button (`buttons.status.font`)
+    - Color of text shown to the right of the buttons when mouse pointer is hovering over a button (`buttons.status.color`)
+  - Header
+    - Header bar color (`header.bgcolor`)
+    - Tab text font (`header.text.font`)
+    - Selected tab text color (`header.text.selected.color`)
+    - Selected tab graphics (tab-sel-*.png)
+    - Unselected tab text color (`header.text.unselected.color`)
+    - Unselected tab graphics. (tab-unsel-*.png)
+    - Tab menu button graphics(there is no selected/hover state for this button) (tab-unsel-menu.png)
+  - Editor
+    - Unselected text - See sketch for theme configuration file property names.
+    - Selected text - See sketch for theme configuration file property names.
+    - Matched bracket highlighting (`editor.brackethighlight`)
+    - Matched bracket highlight animation (`<matchedBracket animate=`)
+    - Matched bracket highlight background color (`<matchedBracket bg=`)
+    - Matched bracket highlight foreground color (`editor.brackethighlight.color`)
+  - **Sketch > Compile/Verify** - This will show theme behavior after compile error.
+  - Status Bar(error state)
+    - Text color (`status.error.fgcolor`)
+    - Status bar color (`status.error.bgcolor`)
+  - Console(with error text)
+    - Font (`console.font`/`console.font.macosx`)
+    - Foreground color of unselected error text (`console.error.color`)
+    - Background color of unselected text (`console.color`)
+    - Foreground color of selected text
+    - Background color of selected text
+  - Line Status bar - Bar at the bottom of the screen that shows the line number, board, and port.
+    - Text color (`linestatus.color`)
+    - Background color (`linestatus.bgcolor`)
+    - Font (`linestatus.font`)
+    - Height (`linestatus.height`)
+- **File > Examples > ThemeTest > SerialPlotter**
+  - **File > Preferences > Show verbose output during > upload**(uncheck)
+  - **Sketch > Upload**
+    - Status Bar(non-error state)
+      - Text color (`status.notice.fgcolor`)
+      - Status bar color (`status.notice.fgcolor`)
+    - Console(with output text)
+      - Text color (`console.output.color`)
+  - **Tools > Serial Plotter**
+  - Select **9600 baud** from the menu in the lower left corner of the Serial Plotter.
+    - Background color (`plotting.bgcolor`)
+    - Color of each plotter line (`plotting.graphcolor.00-03`)
+    - Grid color (`plotting.gridcolor`)
+    - Bounds color (`plotting.boundscolor`)
 
 
 #### Contributing
