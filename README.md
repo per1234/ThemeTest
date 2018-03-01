@@ -75,7 +75,7 @@ These are .png, @2x.png, and .svg files located in lib/theme
   - `linestatus.height` - Height of the Line Status bar.
   - `editor.fgcolor` - Default editor text color.
   - `editor.bgcolor` - Background color of the editor window.
-  - `editor.linehighlight.color` - Background color of the current line highlight. This indicates the line the cursor is on(enabled by setting `editor.linehighlight=true`). If enabled, move the cursor to each line of the sketch to check color contrast.
+  - `editor.linehighlight.color` - Background color of the current line highlight (enabled by setting `editor.linehighlight=true`).
   - `editor.linehighlight` - Enable/disable highlighting of the bracket that matches the one at the cursor position.
   - `editor.caret.color` - AKA cursor.
   - `editor.external.bgcolor` - Background color of the editor when **File > Preferences > Use external editor** is checked.
@@ -199,6 +199,7 @@ Pay attention to the contrast between all possible foreground and background col
   - Editor
     - Unselected text - See sketch for theme configuration file property names.
     - Selected text - See sketch for theme configuration file property names.
+    - Current line highlight (`editor.linehighlight.color`). If enabled (`editor.linehighlight`), move the cursor to each line of the sketch to check color contrast.
     - Matched bracket highlighting (`editor.brackethighlight`)
     - Matched bracket highlight animation (`<matchedBracket animate=`)
     - Matched bracket highlight background color (`<matchedBracket bg=`)
