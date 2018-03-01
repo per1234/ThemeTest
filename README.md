@@ -85,7 +85,7 @@ Pay attention to the contrast between all possible foreground and background col
 
 
 #### Theme settings documentation
-The following information was determined using Arduino IDE 1.6.11. Unless otherwise noted all settings are found in lib/theme/theme.txt.
+The following information was determined using Arduino IDE 1.6.11.
 - Settings found in lib/theme/theme.txt:
   - `status.notice.fgcolor` - Non-error text color on the status bar.  - `buttons.bgcolor` - Color of the button bar.
   - `status.notice.bgcolor` - Background color of the status bar when not in error mode.
