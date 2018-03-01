@@ -12,6 +12,18 @@ Documentation and Sketches for testing [Arduino](http://arduino.cc) IDE themes. 
   - **Sketch > Include Library > Add ZIP Library... >** select the downloaded file **> Open**
 
 
+#### Editing the Arduino IDE's Theme
+By editing a few files the appearance of the Arduino IDE can easily be modified to your liking. This can be useful for improving the visual accessibility or just for aesthetic purposes.
+
+The theme files are located under a subfolder of the Arduino IDE installation folder.
+- **Windows or Linux**: `lib/theme`
+- **macOS**: `Contents/Resources/Java/lib/theme`
+
+The Arduino IDE must be restarted before changes to the theme files take effect.
+
+Note that a few other appearance-related settings are located in the Arduino's **File > Preferences** and also the file preference.txt, which may be found by clicking the link on the line under **File > Preferences > More preferences can be edited directly in the file**.
+
+
 #### Suggested Test Procedure
 Pay attention to the contrast between all possible foreground and background colors of text and graphics.
 - **File > Examples > ThemeTest > ThemeTest**
