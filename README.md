@@ -82,9 +82,9 @@ These are .png, @2x.png, and .svg files located in lib/theme
   - `editor.selection.color` - Background color of selected text.
   - `editor.invalid.style` - Doesn't appear to have any effect.
   - `editor.eolmarkers` - Enable/disable line end indicators(`¶`).
-  - `editor.eolmarkers.color` - Color of line end indicators.
-  - `editor.brackethighlight` - Turns on/off highlighting of the bracket matching the one at the cursor position.
-  - `editor.brackethighlight.color` - Matched bracket highlight foreground color.
+  - `editor.eolmarkers.color` - Color of line end indicators. (enabled by setting `editor.eolmarkers=true`).
+  - `editor.brackethighlight` - Enable/disable highlighting of the bracket matching the one at the cursor position.
+  - `editor.brackethighlight.color` - Matched bracket highlight foreground color. (enabled by setting `editor.brackethighlight=true`).
   - `editor.keyword1.style` - Doesn't appear to have any effect.
   - `editor.data_type.style` - `KEYWORD1` and `DATA_TYPE` keywords in the keywords.txt file of any installed library or {Arduino IDE installation folder}/lib/keywords.txt.
   - `editor.keyword2.style` - Doesn't appear to have any effect.
