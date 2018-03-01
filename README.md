@@ -76,14 +76,14 @@ These are .png, @2x.png, and .svg files located in lib/theme
   - `editor.fgcolor` - Default editor text color.
   - `editor.bgcolor` - Background color of the editor window.
   - `editor.linehighlight.color` - Background color of the current line highlight (enabled by setting `editor.linehighlight=true`).
-  - `editor.linehighlight` - Enable/disable highlighting of the bracket that matches the one at the cursor position.
+  - `editor.linehighlight` - Enable/disable highlighting of the line the cursor is on.
   - `editor.caret.color` - AKA cursor.
   - `editor.external.bgcolor` - Background color of the editor when **File > Preferences > Use external editor** is checked.
   - `editor.selection.color` - Background color of selected text.
   - `editor.invalid.style` - Doesn't appear to have any effect.
   - `editor.eolmarkers` - Enable/disable line end indicators(`¶`).
   - `editor.eolmarkers.color` - Color of line end indicators.
-  - `editor.brackethighlight` - Turns on/off matched bracket highlighting.
+  - `editor.brackethighlight` - Turns on/off highlighting of the bracket matching the one at the cursor position.
   - `editor.brackethighlight.color` - Matched bracket highlight foreground color.
   - `editor.keyword1.style` - Doesn't appear to have any effect.
   - `editor.data_type.style` - `KEYWORD1` and `DATA_TYPE` keywords in the keywords.txt file of any installed library or {Arduino IDE installation folder}/lib/keywords.txt.
