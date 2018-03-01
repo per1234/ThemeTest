@@ -1,11 +1,15 @@
 ﻿# the purpose of this file is to allow the keyword coloration of all keywords to be easily checked
+# for documentation of the keywords.txt format, see: https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5:-Library-specification#keywordstxt-format
+
+# KEYWORD_TOKENTYPE
 keywordKEYWORD1	KEYWORD1
 keywordKEYWORD2	KEYWORD2
 keywordKEYWORD3	KEYWORD3
 keywordLITERAL1	LITERAL1
 keywordLITERAL2	LITERAL2
 
-# 3 tabs are required between the keyword and the keyword identifier for these keyword types. This allows for other keyword identifiers or text to be included between which doesn't appear to have any effect, maybe for backwards compatibility?
+# RSYNTAXTEXTAREA_TOKENTYPE
+# I have put three tabs between the KEYWORD	and RSYNTAXTEXTAREA_TOKENTYPE fields. This means the KEYWORD_TOKENTYPE and REFERENCE_LINK fields have been left empty (which is permitted), since defining those fields would only confuse matters.
 keywordRESERVED_WORD			RESERVED_WORD
 keywordRESERVED_WORD_2			RESERVED_WORD_2
 keywordDATA_TYPE			DATA_TYPE
