@@ -4,7 +4,7 @@ ThemeTest
 Documentation and Sketches for testing [Arduino](http://arduino.cc) IDE themes. Demonstrates all theme settings. Packaged as a library in order to define all possible keywords.
 
 
-#### Installation
+### Installation
 - Download https://github.com/per1234/ThemeTest/archive/master.zip
 - Using Arduino IDE 1.0.x:
   - **Sketch > Import Library... > Add Library... >** select the downloaded file **> Open**
@@ -12,7 +12,7 @@ Documentation and Sketches for testing [Arduino](http://arduino.cc) IDE themes. 
   - **Sketch > Include Library > Add ZIP Library... >** select the downloaded file **> Open**
 
 
-#### Editing the Arduino IDE's Theme
+### Editing the Arduino IDE's Theme
 By editing a few files the appearance of the Arduino IDE can easily be modified to your liking. This can be useful for improving the visual accessibility or just for aesthetic purposes.
 
 The theme files are located under a subfolder of the Arduino IDE installation folder.
@@ -24,9 +24,9 @@ The Arduino IDE must be restarted before changes to the theme files take effect.
 Note that a few other appearance-related settings are located in the Arduino's **File > Preferences** and also the file preference.txt, which may be found by clicking the link on the line under **File > Preferences > More preferences can be edited directly in the file**.
 
 
-#### Theme documentation
+### Theme documentation
 The following information was determined using Arduino IDE 1.6.11.
-##### Graphics Files
+#### Graphics Files
 These are .png, @2x.png, and .svg files located in lib/theme
 - buttons - Rows: Unselected, hover, selected. Columns: Compile, upload, new, open, save.
 - close - Doesn't appear to be used currently.
@@ -42,7 +42,7 @@ These are .png, @2x.png, and .svg files located in lib/theme
 - tab-sel-menu - Doesn't appear to be used currently.
 - tab-unsel-menu - Tab menu button.
 
-##### Theme Settings
+#### Theme Settings
 - Settings found in lib/theme/theme.txt:
   - `status.notice.fgcolor` - Non-error text color on the status bar.  - `buttons.bgcolor` - Color of the button bar.
   - `status.notice.bgcolor` - Background color of the status bar when not in error mode.
@@ -178,7 +178,7 @@ These are .png, @2x.png, and .svg files located in lib/theme
   - `<style token="ERROR_CHAR" fg=` - Text that starts with a single quote(but not a single character surrounded by single quotes).
 
 
- #### Suggested Test Procedure
+ ### Suggested Test Procedure
 Pay attention to the contrast between all possible foreground and background colors of text and graphics.
 - **File > Examples > ThemeTest > ThemeTest**
   - Buttons
@@ -234,7 +234,7 @@ Pay attention to the contrast between all possible foreground and background col
     - Bounds color (`plotting.boundscolor`)
 
 
-#### Contributing
+### Contributing
 Pull requests or issue reports are welcome! Please see the [contribution rules](https://github.com/per1234/asdf/blob/master/CONTRIBUTING.md) for instructions.
 
 
