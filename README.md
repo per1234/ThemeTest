@@ -236,7 +236,7 @@ Pay attention to the contrast between all possible foreground and background col
 
 
 ### Contributing
-Pull requests or issue reports are welcome! Please see the [contribution rules](https://github.com/per1234/asdf/blob/master/CONTRIBUTING.md) for instructions.
+Pull requests or issue reports are welcome! Please see the [contribution rules](https://github.com/per1234/ThemeTest/blob/master/.github/CONTRIBUTING.md) for instructions.
 
 
 ![screenshot](https://github.com/per1234/ThemeTest/raw/master/screenshot.png)
